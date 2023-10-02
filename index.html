@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Design</title>
+    <!-- Add the Font Awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px;
+            height: 100vh;
+            display: flex;
+            align-items: center; /* Centers vertically */
+            justify-content: flex-start; /* Starts from left side */
+            background: linear-gradient(135deg, #6EE7B7 0%, #3FA7D6 100%);
+            background-image: url('./BG.jpg');
+            color: aliceblue;
+        }
+
+        .details-container {
+            max-width: 400px;
+            padding: 240px;
+        }
+
+        h2 {
+            font-size: 2em; /* Increase size for the heading */
+        }
+
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px; /* Increase margin between rows */
+            align-items: center;
+        }
+
+        .label {
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            font-size: 1.5em; /* Increase label text size */
+        }
+
+        .label i {
+            margin-right: 15px; /* Increase space between icon and text */
+            font-size: 1.5em; /* Increase icon size */
+        }
+
+        .detail-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .detail-content i {
+            margin-right: 15px; /* Increase space between icon and detail text */
+            font-size: 1.5em; /* Increase icon size */
+        }
+
+        .detail-content span {
+            font-size: 1.4em; /* Increase detail text size */
+        }
+    </style>
+</head>
+<body>
+
+<div class="details-container">
+    <h2></h2>
+    <div class="detail-row">
+        <span class="label"></span>
+        <div class="detail-content">
+            <i class="fas fa-user"></i>
+            <span>Katikaneni Jawahar Mahi</span>
+        </div>
+    </div>
+    <div class="detail-row">
+        <span class="label"></span>
+        <div class="detail-content">
+            <i class="fas fa-phone-alt"></i>
+            <span>(+91) 9951096000 <br> (+44) 7864658494</span>
+        </div>
+    </div>
+    <div class="detail-row">
+        <span class="label"></span>
+        <div class="detail-content">
+            <i class="fas fa-envelope"></i>
+            <span>jmahikat@gmail.com</span>
+        </div>
+    </div>
+    <!-- Add more details as needed -->
+</div>
+
+</body>
+</html>
